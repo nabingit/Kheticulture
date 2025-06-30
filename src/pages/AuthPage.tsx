@@ -206,6 +206,18 @@ export function AuthPage() {
       </div>
       
       <div className="w-full max-w-md">
+        {/* Top Farming Image */}
+        <div className="relative mb-8 rounded-2xl overflow-hidden shadow-xl">
+          <div className="h-48 relative">
+            <img 
+              src="https://github.com/nabingit/Kheticulture/blob/main/public/Farming.jpg?raw=true" 
+              alt="Farming landscape" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        {/* App Header */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-green-600 rounded-full mb-4">
             <Sprout className="text-white" size={32} />
@@ -214,6 +226,7 @@ export function AuthPage() {
           <p className="text-gray-600">{t('appTagline')}</p>
         </div>
 
+        {/* Auth Form */}
         <div className="bg-white rounded-2xl shadow-xl p-6">
           <div className="flex mb-6">
             <button
@@ -277,17 +290,20 @@ export function AuthPage() {
                     value={formData.contactNumber}
                     onChange={handleContactNumberChange}
                     className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                    placeholder=""
+                    placeholder="१०-अंकको मोबाइल नम्बर प्रविष्ट गर्नुहोस्"
                     maxLength={12} // XXX-XXX-XXXX format
                     required
                   />
                 </div>
-                </div>
+                <p className="text-xs text-gray-500 mt-1">
+                  वैध १०-अंकको नेपाली मोबाइल नम्बर प्रविष्ट गर्नुहोस्
+                </p>
+              </div>
             )}
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
-                {t('password')} * {!isLogin && <span className="text-xs text-gray-500"></span>}
+                {t('password')} * {!isLogin && <span className="text-xs text-gray-500">(८+ अक्षर, मिश्रित केस, संख्या, विशेष अक्षर)</span>}
               </label>
               <div className="relative">
                 <input
