@@ -1,0 +1,23 @@
+{
+  "name": "Kheticulture",
+  "short_name": "Kheticulture",
+  "description": "Connect farmers with local agricultural workers",
+  "theme_color": "#22C55E",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "https://github.com/nabingit/KhetiImproved/blob/main/favico.png?raw",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://github.com/nabingit/KhetiImproved/blob/main/favicon.png?raw",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

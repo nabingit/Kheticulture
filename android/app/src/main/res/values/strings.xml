@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kheticulture</string>
+    <string name="title_activity_main">Kheticulture</string>
+    <string name="package_name">com.kheticulture.app</string>
+    <string name="custom_url_scheme">com.kheticulture.app</string>
+</resources>
