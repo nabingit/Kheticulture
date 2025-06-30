@@ -15,7 +15,9 @@ The idea for **Kheticulture** started in my university days as a dream to build 
 
 ## 🛠️ What I Built
 
-**Kheticulture** is a mobile-first app that connects **farmers who need help** with **individuals seeking short- or long-term farm-related jobs** — just like a freelancing or gig platform, but for agriculture.
+Name: "Kheti" means Farming in Nepali. "Culture" is a way of living. Substituting "Agro" from "Agriculture", I come up with the name "KhetiCulture" as a Nepali Brand.
+
+**Kheticulture** is a mobile-first app that connects **farmers who need help** with **individuals seeking short- or long-term farm-related jobs** — just like a freelancing or gig platform, but for agriculture. 
 KhetiCulture is a freelancing app designed specifically for farming-related chores. It allows farmers to post tasks such as planting, harvesting, or irrigation, specifying details like time duration and location radius. Workers can browse available jobs and apply based on their skills and availability. The app uses a matchmaking system similar to dating apps, helping users find the best fit quickly and conveniently. This fosters a trusted network where farmers get timely help and workers find income opportunities.
 
 # 🔑 Key Features:
